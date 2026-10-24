@@ -1,54 +1,108 @@
-<h1 align="center">Pratul Deshpande</h1>
-
+<!-- Header -->
 <p align="center">
-  <b>Quantum · Electronics · AI</b><br>
-  Embedded systems and software developer · E&amp;Tc undergraduate
+  <img src="./assets/header.svg" width="100%" alt="Pratul Deshpande — Quantum · Electronics · AI">
 </p>
 
 <p align="center">
-  <a href="https://pratuldeshpande.com"><img src="https://img.shields.io/badge/Website-pratuldeshpande.com-050505?style=flat-square&logo=googlechrome&logoColor=white" alt="Website"></a>
-  <a href="https://www.linkedin.com/in/pratuldeshpande"><img src="https://img.shields.io/badge/LinkedIn-pratuldeshpande-050505?style=flat-square" alt="LinkedIn"></a>
-  <a href="https://pypi.org/project/qiskit-waveform-sim/"><img src="https://img.shields.io/pypi/v/qiskit-waveform-sim?style=flat-square&color=050505&label=PyPI" alt="PyPI"></a>
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=18&pause=1200&color=A78BFA&center=true&vCenter=true&width=620&lines=Pulse-level+tools+for+Qiskit+2.5%2B;Post-quantum+crypto+on+ESP32+and+STM32;Firmware+%E2%86%92+cloud+%E2%86%92+AI" alt="Pulse-level tools for Qiskit · Post-quantum crypto on microcontrollers · Firmware to cloud to AI">
 </p>
 
----
+<p align="center">
+  <a href="https://pratuldeshpande.com"><img src="https://img.shields.io/badge/pratuldeshpande.com-050505?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Website"></a>
+  <a href="https://www.linkedin.com/in/pratuldeshpande"><img src="https://img.shields.io/badge/LinkedIn-050505?style=for-the-badge&logoColor=white" alt="LinkedIn"></a>
+  <a href="https://pypi.org/project/qiskit-waveform-sim/"><img src="https://img.shields.io/pypi/v/qiskit-waveform-sim?style=for-the-badge&color=6929C4&label=PyPI" alt="qiskit-waveform-sim on PyPI"></a>
+</p>
 
-I build software that sits close to hardware: firmware for microcontrollers, cryptography that runs on them, and tools for the control layer of quantum computers. Most of my projects start where a library stops working for a real device or a new version.
+<br>
 
-## Projects
-
-### [qiskit-waveform-sim](https://github.com/PratulDeshpande/qiskit-waveform-sim)
-<a href="https://github.com/PratulDeshpande/qiskit-waveform-sim"><img src="https://img.shields.io/badge/Qiskit-Ecosystem-6929C4?style=flat-square" alt="Qiskit Ecosystem"></a>
-<img src="https://img.shields.io/badge/Python-3.11%2B-050505?style=flat-square&logo=python&logoColor=white" alt="Python 3.11+">
-
-Offline control-waveform simulator and interactive pulse sheet for Qiskit 2.5+. Qiskit 2.0 removed `qiskit.pulse`, so this rebuilds DRAG and GaussianSquare envelopes from a scheduled circuit's gates and `Target` durations, then plots them as a pulse sheet and an I/Q oscilloscope. Listed in the Qiskit Ecosystem.
-
-```bash
-pip install qiskit-waveform-sim
+```text
+             ┌───┐                ┌─┐
+  hardware: ─┤ H ├──■─────────────┤M├── PQCMicro · IonFiltra
+             └───┘┌─┴─┐   ┌─┐     └╥┘
+  software: ──────┤ X ├───┤M├──────╫─── qiskit-waveform-sim
+                  └───┘   └╥┘      ║
+                           ║       ║
+    output: ═══════════════╩═══════╩═══ PyPI · Qiskit Ecosystem · Arduino · ESP-IDF
 ```
 
-### [PQCMicro](https://github.com/PratulDeshpande/PQCMicro)
+<p align="center"><sub>Embedded systems and software developer · E&amp;Tc undergraduate · hardware and software, entangled</sub></p>
+
+<p align="center"><img src="./assets/divider.svg" width="100%" alt=""></p>
+
+### `> whoami`
+
+I build software that sits close to hardware: firmware for microcontrollers, cryptography that runs on them, and tools for the control layer of quantum computers. Most of my projects start where an existing library stops working for a real device or a new release.
+
+<p align="center"><img src="./assets/divider.svg" width="100%" alt=""></p>
+
+### `> ls ./projects`
+
+<table>
+<tr>
+<td width="33%" valign="top">
+
+#### ⚛️ [qiskit-waveform-sim](https://github.com/PratulDeshpande/qiskit-waveform-sim)
+
+Qiskit 2.0 removed `qiskit.pulse`. This brings pulse-level visibility back: it rebuilds DRAG and GaussianSquare envelopes from a scheduled circuit and plots an interactive pulse sheet and I/Q oscilloscope.
+
+<img src="https://img.shields.io/badge/Qiskit-Ecosystem-6929C4?style=flat-square" alt="Qiskit Ecosystem">
+<img src="https://img.shields.io/badge/Python-3.11%2B-050505?style=flat-square&logo=python&logoColor=white" alt="Python 3.11+">
+
+</td>
+<td width="33%" valign="top">
+
+#### 🔐 [PQCMicro](https://github.com/PratulDeshpande/PQCMicro)
+
+NIST post-quantum cryptography on microcontrollers. ML-KEM-512 (FIPS 203) and ML-DSA-44 (FIPS 204), ported from PQClean, with FreeRTOS tasks, NVS key storage, and key chunking for LoRa and BLE.
+
 <img src="https://img.shields.io/badge/C%2FC%2B%2B-050505?style=flat-square&logo=cplusplus&logoColor=white" alt="C/C++">
-<img src="https://img.shields.io/badge/ESP32%20·%20STM32%20·%20RP2040-050505?style=flat-square" alt="ESP32, STM32, RP2040">
+<img src="https://img.shields.io/badge/ESP32·STM32·RP2040-050505?style=flat-square&logo=espressif&logoColor=white" alt="ESP32, STM32, RP2040">
 
-NIST post-quantum cryptography for microcontrollers. ML-KEM-512 (FIPS 203) key exchange and ML-DSA-44 (FIPS 204) signatures, ported from PQClean, with FreeRTOS-aware tasks on ESP32, NVS key storage, and key chunking for LoRa and BLE packet limits. Installs from the Arduino Library Manager, PlatformIO, or the ESP-IDF Component Manager.
+</td>
+<td width="33%" valign="top">
 
-### [IonFiltra](https://github.com/PratulDeshpande/IonFiltra)
-<img src="https://img.shields.io/badge/IIoT-full%20stack-050505?style=flat-square" alt="IIoT full stack">
-<a href="https://ionfiltra.pratuldeshpande.com"><img src="https://img.shields.io/badge/Live-demo-050505?style=flat-square" alt="Live demo"></a>
+#### 🏭 [IonFiltra](https://github.com/PratulDeshpande/IonFiltra)
 
-Industrial IoT platform for monitoring and predictive maintenance of pulse-jet bag filter controllers. STM32 nodes read controllers over Modbus RTU and relay over LoRa to an ESP32 gateway on GSM. A Node.js and PostgreSQL backend streams live data to a React dashboard, and Gemini runs daily failure analytics plus a RAG assistant that answers questions from equipment manuals and live readings.
+Industrial IoT for pulse-jet bag filters. STM32 nodes on Modbus RTU and LoRa, an ESP32 GSM gateway, a live React dashboard, and Gemini-powered failure analytics with a RAG assistant.
 
-## Toolbox
+<a href="https://ionfiltra.pratuldeshpande.com"><img src="https://img.shields.io/badge/Live-demo-6929C4?style=flat-square" alt="Live demo"></a>
+<img src="https://img.shields.io/badge/Full%20stack-IIoT-050505?style=flat-square" alt="Full-stack IIoT">
 
-| Area | Tools |
-| --- | --- |
-| Languages | C, C++, Python, JavaScript |
-| Embedded | ESP32, STM32, RP2040, FreeRTOS, ESP-IDF, PlatformIO, Modbus RTU, LoRa, UDS |
-| Quantum | Qiskit, OpenQASM 3, QuEST |
-| Web and data | Node.js, Express, React, Vite, Tailwind CSS, PostgreSQL |
-| AI | Gemini, retrieval-augmented generation |
+</td>
+</tr>
+</table>
 
----
+<p align="center"><img src="./assets/divider.svg" width="100%" alt=""></p>
 
-<p align="center"><sub>Open to collaborations on quantum software, embedded security, and IIoT. Reach me through <a href="https://pratuldeshpande.com">pratuldeshpande.com</a>.</sub></p>
+### `> cat shipped.log`
+
+```diff
++ qiskit-waveform-sim   published on PyPI, listed in the Qiskit Ecosystem
++ PQCMicro              installable via Arduino Library Manager, PlatformIO, ESP-IDF
++ IonFiltra             end-to-end: firmware → gateway → cloud → AI, live demo online
+```
+
+<p align="center"><img src="./assets/divider.svg" width="100%" alt=""></p>
+
+### `> toolbox`
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=c,cpp,py,js,arduino,raspberrypi,linux,git&theme=dark" alt="C, C++, Python, JavaScript, Arduino, Raspberry Pi, Linux, Git"><br>
+  <img src="https://skillicons.dev/icons?i=nodejs,express,react,vite,tailwind,postgres,supabase&theme=dark" alt="Node.js, Express, React, Vite, Tailwind, PostgreSQL, Supabase">
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Qiskit-6929C4?style=flat-square&logo=qiskit&logoColor=white" alt="Qiskit">
+  <img src="https://img.shields.io/badge/OpenQASM%203-050505?style=flat-square" alt="OpenQASM 3">
+  <img src="https://img.shields.io/badge/ESP--IDF-050505?style=flat-square&logo=espressif&logoColor=white" alt="ESP-IDF">
+  <img src="https://img.shields.io/badge/STM32-050505?style=flat-square&logo=stmicroelectronics&logoColor=white" alt="STM32">
+  <img src="https://img.shields.io/badge/FreeRTOS-050505?style=flat-square" alt="FreeRTOS">
+  <img src="https://img.shields.io/badge/PlatformIO-050505?style=flat-square&logo=platformio&logoColor=white" alt="PlatformIO">
+  <img src="https://img.shields.io/badge/Modbus%20·%20LoRa%20·%20UDS-050505?style=flat-square" alt="Modbus, LoRa, UDS">
+  <img src="https://img.shields.io/badge/Gemini%20·%20RAG-050505?style=flat-square&logo=googlegemini&logoColor=white" alt="Gemini, RAG">
+</p>
+
+<p align="center"><img src="./assets/divider.svg" width="100%" alt=""></p>
+
+<p align="center"><sub>Open to collaborations on quantum software, embedded security, and IIoT · <a href="https://pratuldeshpande.com">pratuldeshpande.com</a></sub></p>
+
