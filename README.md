@@ -17,21 +17,21 @@
 
 ```text
              ┌───┐                ┌─┐
-  hardware: ─┤ H ├──■─────────────┤M├── PQCMicro · IonFiltra
+  hardware: ─┤ H ├──■─────────────┤M├── 
              └───┘┌─┴─┐   ┌─┐     └╥┘
-  software: ──────┤ X ├───┤M├──────╫─── qiskit-waveform-sim
+  software: ──────┤ X ├───┤M├──────╫─── 
                   └───┘   └╥┘      ║
                            ║       ║
-    output: ═══════════════╩═══════╩═══ PyPI · Qiskit Ecosystem · Arduino · ESP-IDF
+    output: ═══════════════╩═══════╩═══ 
 ```
 
-<p align="center"><sub>Embedded systems and software developer · E&amp;Tc undergraduate · hardware and software, entangled</sub></p>
+<p align="center"><sub>Research Enginner and software developer
 
 <p align="center"><img src="./assets/divider.svg" width="100%" alt=""></p>
 
 ### `> whoami`
 
-I build software that sits close to hardware: firmware for microcontrollers, cryptography that runs on them, and tools for the control layer of quantum computers. Most of my projects start where an existing library stops working for a real device or a new release.
+I build software that sits close to hardware: Softwares for application layer, firmware for Hardware layer and tools for the control layer of quantum computers.
 
 <p align="center"><img src="./assets/divider.svg" width="100%" alt=""></p>
 
