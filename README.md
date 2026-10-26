@@ -4,7 +4,7 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=18&pause=1200&color=A78BFA&center=true&vCenter=true&width=620&lines=Pulse-level+tools+for+Qiskit+2.5%2B;Post-quantum+crypto+on+ESP32+and+STM32;Firmware+%E2%86%92+cloud+%E2%86%92+AI" alt="Pulse-level tools for Qiskit · Post-quantum crypto on microcontrollers · Firmware to cloud to AI">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=18&pause=1200&color=A78BFA&center=true&vCenter=true&width=620&lines=Quantum+control-electronics;Pulse-level+tools;Post-quantum+crypto;Firmware+%E2%86%92+cloud+%E2%86%92+AI" alt="Quantum control electronics · Pulse-level tools · Post-quantum crypto · Firmware to cloud to AI">
 </p>
 
 <p align="center">
@@ -13,21 +13,6 @@
   <a href="https://pypi.org/project/qiskit-waveform-sim/"><img src="https://img.shields.io/pypi/v/qiskit-waveform-sim?style=for-the-badge&color=6929C4&label=PyPI" alt="qiskit-waveform-sim on PyPI"></a>
 </p>
 
-<br>
-
-```text
-             ┌───┐                ┌─┐
-  hardware: ─┤ H ├──■─────────────┤M├── 
-             └───┘┌─┴─┐   ┌─┐     └╥┘
-  software: ──────┤ X ├───┤M├──────╫─── 
-                  └───┘   └╥┘      ║
-                           ║       ║
-    output: ═══════════════╩═══════╩═══ 
-```
-
-<p align="center"><sub>Research Enginner and software developer
-
-<p align="center"><img src="./assets/divider.svg" width="100%" alt=""></p>
 
 ### `> whoami`
 
