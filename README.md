@@ -20,55 +20,6 @@ I build software that sits close to hardware: Softwares for application layer, f
 
 <p align="center"><img src="./assets/divider.svg" width="100%" alt=""></p>
 
-### `> ls ./projects`
-
-<table>
-<tr>
-<td width="33%" valign="top">
-
-#### ⚛️ [qiskit-waveform-sim](https://github.com/PratulDeshpande/qiskit-waveform-sim)
-
-Qiskit 2.0 removed `qiskit.pulse`. This brings pulse-level visibility back: it rebuilds DRAG and GaussianSquare envelopes from a scheduled circuit and plots an interactive pulse sheet and I/Q oscilloscope.
-
-<img src="https://img.shields.io/badge/Qiskit-Ecosystem-6929C4?style=flat-square" alt="Qiskit Ecosystem">
-<img src="https://img.shields.io/badge/Python-3.11%2B-050505?style=flat-square&logo=python&logoColor=white" alt="Python 3.11+">
-
-</td>
-<td width="33%" valign="top">
-
-#### 🔐 [PQCMicro](https://github.com/PratulDeshpande/PQCMicro)
-
-NIST post-quantum cryptography on microcontrollers. ML-KEM-512 (FIPS 203) and ML-DSA-44 (FIPS 204), ported from PQClean, with FreeRTOS tasks, NVS key storage, and key chunking for LoRa and BLE.
-
-<img src="https://img.shields.io/badge/C%2FC%2B%2B-050505?style=flat-square&logo=cplusplus&logoColor=white" alt="C/C++">
-<img src="https://img.shields.io/badge/ESP32·STM32·RP2040-050505?style=flat-square&logo=espressif&logoColor=white" alt="ESP32, STM32, RP2040">
-
-</td>
-<td width="33%" valign="top">
-
-#### 🏭 [IonFiltra](https://github.com/PratulDeshpande/IonFiltra)
-
-Industrial IoT for pulse-jet bag filters. STM32 nodes on Modbus RTU and LoRa, an ESP32 GSM gateway, a live React dashboard, and Gemini-powered failure analytics with a RAG assistant.
-
-<a href="https://ionfiltra.pratuldeshpande.com"><img src="https://img.shields.io/badge/Live-demo-6929C4?style=flat-square" alt="Live demo"></a>
-<img src="https://img.shields.io/badge/Full%20stack-IIoT-050505?style=flat-square" alt="Full-stack IIoT">
-
-</td>
-</tr>
-</table>
-
-<p align="center"><img src="./assets/divider.svg" width="100%" alt=""></p>
-
-### `> cat shipped.log`
-
-```diff
-+ qiskit-waveform-sim   published on PyPI, listed in the Qiskit Ecosystem
-+ PQCMicro              installable via Arduino Library Manager, PlatformIO, ESP-IDF
-+ IonFiltra             end-to-end: firmware → gateway → cloud → AI, live demo online
-```
-
-<p align="center"><img src="./assets/divider.svg" width="100%" alt=""></p>
-
 ### `> toolbox`
 
 <p align="center">
