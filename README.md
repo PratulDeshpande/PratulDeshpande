@@ -8,7 +8,7 @@
 </p>
 
 <p align="center">
-  <a href="https://blog.pratuldeshpande.com"><img src="https://img.shields.io/badge/pratuldeshpande.com-050505?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Website"></a>
+  <a href="https://blog.pratuldeshpande.com"><img src="https://img.shields.io/badge/Personal Blog-050505?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Website"></a>
   <a href="https://www.linkedin.com/in/pratuldeshpande"><img src="https://img.shields.io/badge/LinkedIn-050505?style=for-the-badge&logoColor=white" alt="LinkedIn"></a>
 </p>
 
