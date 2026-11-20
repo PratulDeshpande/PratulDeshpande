@@ -10,7 +10,6 @@
 <p align="center">
   <a href="https://pratuldeshpande.com"><img src="https://img.shields.io/badge/pratuldeshpande.com-050505?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Website"></a>
   <a href="https://www.linkedin.com/in/pratuldeshpande"><img src="https://img.shields.io/badge/LinkedIn-050505?style=for-the-badge&logoColor=white" alt="LinkedIn"></a>
-  <a href="https://pypi.org/project/qiskit-waveform-sim/"><img src="https://img.shields.io/pypi/v/qiskit-waveform-sim?style=for-the-badge&color=6929C4&label=PyPI" alt="qiskit-waveform-sim on PyPI"></a>
 </p>
 
 
